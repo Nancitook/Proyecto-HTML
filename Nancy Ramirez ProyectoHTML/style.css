@@ -107,8 +107,8 @@ body {
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(255, 255, 255, 0.678),
+      rgba(255, 252, 252, 0.336)
     ),
     url(images/headerpizza.jfif);
   background-size: cover;
@@ -171,7 +171,7 @@ body {
 .about-text {
   flex: 1 1 400px;
   padding-right: 100px;
-  padding-left: 170px;
+  padding-left: 100px;
   margin: auto;
   transform: translate(-150%);
   animation: about-text-animation 1s ease-in-out forwards;
@@ -213,12 +213,20 @@ body {
   font-size: 3rem;
   text-align: center;
 }
+#uno:hover{
+font-size: 3.5rem;
+color: #ca5b5b;
+}
 #dos {
   grid-column: 2;
   grid-row: 2;
   color: #8c1f28;
   font-size: 3rem;
   text-align: center;
+}
+#dos:hover{
+font-size: 3.5rem;
+color: #ca5b5b;
 }
 #tres {
   grid-column: 3;
@@ -227,7 +235,10 @@ body {
   font-size: 3rem;
   text-align: center;
 }
-
+#tres:hover{
+font-size: 3.5rem;
+color: #ca5b5b;
+}
 #p1 {
   grid-column: 1;
   grid-row: 3;
@@ -251,7 +262,7 @@ body {
 }
 /*!-----Especialidades-----*/
 #food {
-  padding: 5rem 0 10rem 0;
+  padding: 3rem 0 6rem 0;
 }
 
 #food h2 {
@@ -324,6 +335,9 @@ body {
   top: 40%;
 }
 /*!-----Promociones-----*/
+#food-menu{
+    background-color: #e2e2e1d3;
+}
 .food-menu-heading {
   text-align: center;
   font-size: 3.4rem;
@@ -331,17 +345,17 @@ body {
   color: #666;
 }
 .food-menu-container {
-  display: flex;
   flex-wrap: wrap;
-  padding: 50px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
 }
 .food-menu-container img {
   display: block;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
+  padding-bottom: 15px;
 }
 .food-menu-item {
   display: flex;
@@ -370,7 +384,7 @@ body {
 /*!-----Contactanos-----*/
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  background: rgb(247, 244, 244);
 }
 .contact-container {
   display: flex;
